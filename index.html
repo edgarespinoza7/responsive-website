@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Running Club</title>
   </head>
@@ -22,7 +28,7 @@
           <a href="#" id="subscribe-now-bt">Subscribe Now</a>
         </nav>
         <div id="bg">
-            <h1>Running Club</h1>
+          <h1>Running Club</h1>
         </div>
       </header>
 
@@ -37,7 +43,7 @@
         </div>
         <div id="features-cards">
           <div class="cards">
-            <img src="/images/trainning-1.jpg" alt="" class="images-training"/>
+            <img src="/images/trainning-1.jpg" alt="" class="images-training" />
             <h3>
               6 effective exercises you can do with just a resistance band
             </h3>
@@ -48,16 +54,16 @@
             </p>
           </div>
           <div class="cards">
-            <img src="/images/training-2.jpg" alt="" class="images-training"/>
+            <img src="/images/training-2.jpg" alt="" class="images-training" />
             <h3>7 ab exercises to fire up your core before your next run</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur,
               officiis voluptatem. Maxime vel ipsum, praesentium laudantium
-              fugit soluta voluptas cum ex. 
+              fugit soluta voluptas cum ex.
             </p>
           </div>
           <div class="cards">
-            <img src="/images/training-3.jpg" alt="" class="images-training"/>
+            <img src="/images/training-3.jpg" alt="" class="images-training" />
             <h3>
               This is How long you really need to hold a plank to see results
             </h3>
@@ -72,25 +78,25 @@
 
       <section id="video">
         <iframe
-          src="https://player.vimeo.com/video/66219649"
-          width="1280"
-          height="720"
+          width="100%"
+          height="1080px"
+          src="https://www.youtube.com/embed/2qB69N8pJns?controls=0"
           frameborder="0"
-          allow="autoplay; fullscreen"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-        
       </section>
       <section id="newsletter">
         <form action="#">
-          <label for="">Enter your Email Address</label><br>
-          <input type="text" />
-          <input type="submit" />
+          <label for="">Enter your Email Address</label><br />
+          <input type="text" id="email-container" /><br />
+          <input type="submit" class="btn" />
         </form>
       </section>
+
       <section id="blog">
         <div class="blog-article">
-          <img src="/images/blog-1.jpg" alt="" class="image-blog"/>
+          <img src="/images/blog-1.jpg" alt="" class="image-blog" />
           <div>
             <h3>Can Running Give You abs</h3>
             <p>
@@ -99,45 +105,42 @@
             </p>
             <p><span id="blog-date">18 august 2019</span></p>
           </div>
-          
         </div>
         <div class="blog-article">
-          <img src="/images/blog-2.jpg" alt="" class="image-blog"/>
+          <img src="/images/blog-2.jpg" alt="" class="image-blog" />
           <div>
             <h3>The 10 minutes workout</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
-              deleniti mollitia repellendus, illum quos distinctio quam corrupti.
+              deleniti mollitia repellendus, illum quos distinctio quam
+              corrupti.
             </p>
             <p><span id="blog-date">4 september 2019</span></p>
           </div>
-          
         </div>
         <div class="blog-article">
-          <img src="/images/blog-3.jpg" alt="" class="image-blog"/>
+          <img src="/images/blog-3.jpg" alt="" class="image-blog" />
           <div>
             <h3>5 resistance band exercises</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima,
-            error blanditiis a nulla, nobis dolorem itaque ullam sint, sunt
-            cumque eius.
-          </p>
-          <p><span id="blog-date">25 august 2019</span></p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              minima, error blanditiis a nulla, nobis dolorem itaque ullam sint,
+              sunt cumque eius.
+            </p>
+            <p><span id="blog-date">25 august 2019</span></p>
           </div>
-          
         </div>
         <div class="blog-article">
-          <img src="/images/blog-4.jpg" alt="" class="image-blog"/>
+          <img src="/images/blog-4.jpg" alt="" class="image-blog" />
           <div>
             <h3>How To Build a Strong Core</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-            quidem aperiam dolorem architecto ex numquam soluta enim temporibus
-            porro minus.
-          </p>
-          <p><span id="blog-date">25 december 2019</span></p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+              quidem aperiam dolorem architecto ex numquam soluta enim
+              temporibus porro minus.
+            </p>
+            <p><span id="blog-date">25 december 2019</span></p>
           </div>
-          
         </div>
       </section>
       <section id="instagram">
@@ -173,7 +176,7 @@
             numquam, velit rem, esse nihil adipisci corporis, blanditiis aliquid
             temporibus maxime totam dolorum veniam mollitia!
           </p>
-          <button>Learn More</button>
+          <button class="btn">Learn More</button>
         </div>
       </section>
       <section id="personal-trainers">
@@ -208,8 +211,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
           impedit amet aspernatur quibusdam.
         </p>
-        <button>Join Our Club</button>
-        
+        <button class="btn">Join Our Club</button>
       </section>
       <footer>
         <p>&copy; Copyright Qode Intercative</p>
